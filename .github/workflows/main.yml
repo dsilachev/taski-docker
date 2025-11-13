@@ -152,7 +152,6 @@ jobs:
         with:
           context: ./gateway/
           push: true
-          # Тут вместо username должен быть ваш логин на Docker Hub
           tags: dsilachev/taski_gateway:latest
   deploy:
     runs-on: ubuntu-latest
